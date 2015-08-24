@@ -19,3 +19,4 @@ attribute :bin_dir, :kind_of => [String, NilClass], :default => "/usr/local/bin"
 attribute :config, :kind_of => Hash, :default => {}
 attribute :scripts, :kind_of => Hash, :default => {}
 attribute :packages, :kind_of => Hash, :default => {}
+attribute :environment, :kind_of => Hash
